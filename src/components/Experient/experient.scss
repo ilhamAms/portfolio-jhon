@@ -1,0 +1,91 @@
+.experient-container {
+     margin: auto;
+
+   
+    width: 100%;
+    text-align: center;
+    .text {
+        .text-small {
+            font-size: 1.5rem;
+            color: var(--clr-p);
+        }
+        .text-title {
+            font-size: 3rem;
+            span {
+                color: red;
+            }
+        }
+    }
+
+    .experient {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        max-width: 100%;
+        margin-top: 3rem;
+        
+      
+
+        .experient-left{
+            border: 1px solid black;
+            padding: 2rem;
+            border-radius: 1rem;
+            .title {
+               
+            }
+            .grid-frontend {
+               
+                margin-top: 2rem;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                .fronend {
+                    margin: 0 auto;
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: start;
+
+                    img {
+                        height: 2rem;
+                    }
+                    .item {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }
+
+        .experient-right{
+            border: 1px solid black;
+            padding: 2rem;
+            border-radius: 1rem;
+            
+           
+            .grid-backend {
+                
+                margin-top: 2rem;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                .fronend {
+                    margin:  0 auto;
+                    display: flex;
+                    gap: 1rem;
+                    img {
+                        height: 2rem;
+                    }
+
+                    .item {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }
+    }
+} 

@@ -1,0 +1,67 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.home-container .pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.home-container .home-right .text-group {
+  display: grid;
+  text-align: center;
+}
+.home-container .home-right .text-group .text-small {
+  font-weight: 600;
+  color: var(--clr-p);
+}
+.home-container .home-right .text-group .text-title {
+  font-size: 3rem;
+}
+.home-container .home-right .text-group .text-title span {
+  color: red;
+}
+.home-container .home-right .text-group .text-subtitle {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.home-container .home-right .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.home-container .home-right .btn-group button {
+  padding: 1rem;
+  width: 9rem;
+  border-radius: 2rem;
+  outline: none;
+  background: none;
+  font-weight: 600;
+  transition: var(--transition);
+  border: rgb(53, 53, 53) 0.1rem solid;
+  cursor: pointer;
+}
+.home-container .home-right .btn-group button:hover.cv {
+  background-color: var(--clr-black);
+  color: white;
+}
+.home-container .home-right .btn-group .co {
+  background-color: var(--clr-black);
+  color: white;
+}
+.home-container .home-right .btn-group .co:hover {
+  background-color: var(--clr-p);
+}
+.home-container .home-right .group-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.home-container .home-right .group-icon .icon {
+  height: 2rem;
+  cursor: pointer;
+}/*# sourceMappingURL=home.css.map */

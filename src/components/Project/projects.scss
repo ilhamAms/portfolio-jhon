@@ -1,0 +1,60 @@
+.project-container {
+    width: 100%;
+    text-align: center;
+    margin:  auto;
+    margin-bottom: 2rem;
+
+    .text {
+        margin-bottom: 3rem;
+        .text-small {
+            font-size: 1.5rem;
+            color: var(--clr-p);
+        }
+        .text-title {
+            font-size: 3rem;
+            span {
+                color: red;
+            }
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        .project-items {
+            border: 2px solid black;
+            border-radius: 1.5rem;
+            padding: 2rem;
+        
+            .sec-image {
+                border-radius: 2rem;
+                overflow: hidden;
+            }
+            .title {
+                font-size: 1.5rem;
+                margin: 1rem 0;
+            }
+            .btn-group {
+                display: flex;
+                justify-content: space-around;
+
+                .btn {
+                    padding: .8rem 1.5rem;
+                    border-radius: 40px;
+                    border: 2px solid black;
+                    background: none;
+                    font-weight: 600;
+                    transition: var(--transition);
+                    cursor: pointer;
+                    &:hover {
+                        background: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,29 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--nav-height);
+  padding: 0 0.5rem;
+}
+.Navbar .navbar-left .text-logo {
+  color: var(--clr-black);
+  font-size: 2rem;
+}
+.Navbar .navbar-left .text-logo span {
+  color: red;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.Navbar .navbar-right ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.Navbar .navbar-right ul .menu .menu-link {
+  color: var(--clr-black);
+}
+.Navbar .navbar-right ul .menu .menu-link:hover {
+  color: red;
+  transition: var(--transition);
+}/*# sourceMappingURL=navbar.css.map */

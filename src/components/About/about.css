@@ -1,0 +1,45 @@
+.about-container .text {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.about-container .text .text-small {
+  font-size: 1.5rem;
+  color: var(--clr-p);
+}
+.about-container .text .text-title {
+  font-size: 3rem;
+}
+.about-container .text .text-title span {
+  color: red;
+}
+.about-container .about-info {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.about-container .about-info .sec-image img {
+  border-radius: 2rem;
+  height: 350px;
+  max-width: 320px;
+}
+.about-container .about-info .sec-infomation {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.about-container .about-info .sec-infomation .experient, .about-container .about-info .sec-infomation .education {
+  text-align: center;
+  border: 1px solid var(--clr-p);
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 1.5rem 0;
+  display: grid;
+}
+.about-container .about-info .sec-infomation .experient .text-small, .about-container .about-info .sec-infomation .education .text-small {
+  color: var(--clr-p);
+}
+.about-container .about-info .sec-infomation .experient img, .about-container .about-info .sec-infomation .education img {
+  height: 2rem;
+  margin: 0 auto;
+}/*# sourceMappingURL=about.css.map */
